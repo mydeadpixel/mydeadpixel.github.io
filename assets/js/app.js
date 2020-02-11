@@ -268,15 +268,14 @@ $(document).ready(function () {
       return w > min && w <= max;
     }; // Usage
     // document.getElementById("insta").innerHTML = "<iframe src='//lightwidget.com/widgets/acfd88078923583e9384c5929877aa6a.html' scrolling='no' allowtransparency='true' class='lightwidget-widget' style='padding: 2px;width:100%;border:0;overflow:hidden;'></iframe>";
-
-
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || isBreakPoint(1024)) {
-      console.log("load insta for mobile");
-      document.getElementById("insta").innerHTML = "<iframe src='//lightwidget.com/widgets/acfd88078923583e9384c5929877aa6a.html' scrolling='no' allowtransparency='true' class='lightwidget-widget' style='padding: 2px;width:100%;border:0;overflow:hidden;'></iframe>";
-    } else {
-      console.log("load insta");
-      document.getElementById("insta").innerHTML = "<iframe src='//lightwidget.com/widgets/3f4045c5ace853dab5374d616ad138fa.html' scrolling='no' allowtransparency='true' class='lightwidget-widget' style='padding: 2px;width:100%;border:0;overflow:hidden;'></iframe>";
-    } // var logo = document.getElementById('logo');
+    // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || isBreakPoint(1024)) {
+    // 	console.log("load insta for mobile");
+    //     document.getElementById("insta").innerHTML = "<iframe src='//lightwidget.com/widgets/acfd88078923583e9384c5929877aa6a.html' scrolling='no' allowtransparency='true' class='lightwidget-widget' style='padding: 2px;width:100%;border:0;overflow:hidden;'></iframe>";
+    // } else {
+    // 	console.log("load insta");
+    // 	document.getElementById("insta").innerHTML = "<iframe src='//lightwidget.com/widgets/3f4045c5ace853dab5374d616ad138fa.html' scrolling='no' allowtransparency='true' class='lightwidget-widget' style='padding: 2px;width:100%;border:0;overflow:hidden;'></iframe>";
+    // }
+    // var logo = document.getElementById('logo');
     // if(window.location.hostname == "aguycalledgary.co") {
     // 	console.log('show agcg', window.location.host);
     // 	logo.src = "/assets/img/logo/agcg-logo.svg";
@@ -306,10 +305,10 @@ $(document).ready(function () {
       easing: 'easeInOutCubic',
       easingcss3: 'ease',
       keyboardScrolling: true,
-      anchors: ['home', 'ITV-CR-Website', 'Eat', 'Text-Santa', 'Tackle-Hunger-Together', 'Le-Manoir', 'ITV-CR-Report', 'Social'],
+      anchors: ['home', 'Sonos', 'ITV-CR-Website', 'Eat', 'Text-Santa', 'Tackle-Hunger-Together', 'Le-Manoir', 'ITV-CR-Report', 'Social'],
       navigation: true,
       navigationPosition: 'right',
-      navigationTooltips: ['Home', 'ITV CR Website', 'Eat', 'Text Santa', 'Tackle Hunger Together', 'Le Manoir', 'ITV CR Report', 'Social'],
+      navigationTooltips: ['Home', 'Sonos', 'ITV CR Website', 'Eat', 'Text Santa', 'Tackle Hunger Together', 'Le Manoir', 'ITV CR Report', 'Social'],
       afterLoad: function afterLoad(anchorLink, index) {
         //console.log(index);
         console.log('this is', index);
