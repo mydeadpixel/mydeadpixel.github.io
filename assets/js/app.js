@@ -314,7 +314,7 @@ $(document).ready(function () {
         console.log('this is', index);
         console.log('anchor is', anchorLink);
 
-        if (index > 1 && index < 7) {//TweenMax.to(animdesc, 0.7, {opacity:0});
+        if (index > 1 && index < 8) {//TweenMax.to(animdesc, 0.7, {opacity:0});
           //TweenMax.to(animdesc[index - 2], 0.2, {opacity:1});
         } else {//TweenMax.to(animdesc, 0.7, {opacity:0});
           }
