@@ -305,10 +305,10 @@ $(document).ready(function () {
       easing: 'easeInOutCubic',
       easingcss3: 'ease',
       keyboardScrolling: true,
-      anchors: ['home', 'Sonos', 'ITV-CR-Website', 'Eat', 'Text-Santa', 'Tackle-Hunger-Together', 'Le-Manoir', 'ITV-CR-Report', 'Social'],
+      anchors: ['home', 'Sonos', 'Nura', 'ITV-CR-Website', 'Eat', 'Text-Santa', 'Tackle-Hunger-Together', 'Le-Manoir', 'ITV-CR-Report', 'Social'],
       navigation: true,
       navigationPosition: 'right',
-      navigationTooltips: ['Home', 'Sonos', 'ITV CR Website', 'Eat', 'Text Santa', 'Tackle Hunger Together', 'Le Manoir', 'ITV CR Report', 'Social'],
+      navigationTooltips: ['Home', 'Sonos', 'Nura', 'ITV CR Website', 'Eat', 'Text Santa', 'Tackle Hunger Together', 'Le Manoir', 'ITV CR Report', 'Social'],
       afterLoad: function afterLoad(anchorLink, index) {
         //console.log(index);
         console.log('this is', index);
